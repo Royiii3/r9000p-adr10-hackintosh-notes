@@ -1,0 +1,51 @@
+{
+  "format": "Historical observations only; not an OpenCore config.plist",
+  "recorded_at": "2026-10-23",
+  "machine": {
+    "model": "Lenovo R9000P ADR10 / 83LV",
+    "cpu": "Ryzen 9 8945HX",
+    "physical_cores": 16,
+    "threads": 32,
+    "gpu": "RTX 5060 Laptop 8GB",
+    "gpu_pci_id": "10DE:2D59"
+  },
+  "SMBIOS": "MacBookPro16,2",
+  "desktop_boot_args": "-v debug=0x100 keepsyms=1 -amfipassbeta -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 cpus=1 gfxrst=4",
+  "cpu12_test": {
+    "change": "cpus=1 -> cpus=12 only",
+    "result": "not recorded"
+  },
+  "physical_core_patch_hex": "10",
+  "Booter_Quirks": {
+    "DevirtualiseMmio": true,
+    "SetupVirtualMap": true,
+    "ResizeAppleGpuBars": 0,
+    "DisableVariableWrite": true
+  },
+  "MmioWhitelist": [
+    {
+      "address_hex": "0xff000000",
+      "enabled": true
+    }
+  ],
+  "UEFI_Quirks": {
+    "ResizeGpuBars": -1
+  },
+  "UEFI_drivers_enabled": [
+    "apfs_aligned.efi",
+    "HfsPlus.efi",
+    "OpenRuntime.efi"
+  ],
+  "Security": {
+    "ScanPolicy": 0,
+    "DmgLoading": "Signed",
+    "SecureBootModel": "Disabled"
+  },
+  "HideAuxiliary": false,
+  "IONDRVSupport": {
+    "Recovery": "Exclude disabled",
+    "Installed_NVIDIA": "Exclude enabled"
+  },
+  "BIOS_Above4G": "unknown",
+  "end_state": "macOS removed on 2026-10-24; no further validation"
+}
