@@ -1,0 +1,173 @@
+[
+  {
+    "project": "acidanthera/OpenCorePkg",
+    "file": "acidanthera--OpenCorePkg.txt",
+    "url": "https://github.com/acidanthera/OpenCorePkg/blob/master/LICENSE.txt",
+    "sourceBlob": "9a15cce349e6e8a4eeaf3b31fbb3cfe7a3214856",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1601
+  },
+  {
+    "project": "acidanthera/Lilu",
+    "file": "acidanthera--Lilu.txt",
+    "url": "https://github.com/acidanthera/Lilu/blob/master/LICENSE.txt",
+    "sourceBlob": "0c9c29f321b2520daecb4f728afb80fdad4a478f",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/Lilu/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1483
+  },
+  {
+    "project": "acidanthera/VirtualSMC",
+    "file": "acidanthera--VirtualSMC.txt",
+    "url": "https://github.com/acidanthera/VirtualSMC/blob/master/LICENSE.txt",
+    "sourceBlob": "0dbc9af34cacc20c224de4b16a41b643f45f88a5",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/VirtualSMC/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1479
+  },
+  {
+    "project": "acidanthera/WhateverGreen",
+    "file": "acidanthera--WhateverGreen.txt",
+    "url": "https://github.com/acidanthera/WhateverGreen/blob/master/LICENSE.txt",
+    "sourceBlob": "40a5fcb639b170ac09ff645148d99bc3b76c8b15",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/WhateverGreen/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1479
+  },
+  {
+    "project": "acidanthera/NVMeFix",
+    "file": "acidanthera--NVMeFix.txt",
+    "url": "https://github.com/acidanthera/NVMeFix/blob/master/LICENSE.txt",
+    "sourceBlob": "928872867681eebf3a7f82f8ebb85097b74e6aa3",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/NVMeFix/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 20694
+  },
+  {
+    "project": "acidanthera/RestrictEvents",
+    "file": "acidanthera--RestrictEvents.txt",
+    "url": "https://github.com/acidanthera/RestrictEvents/blob/master/LICENSE.txt",
+    "sourceBlob": "9c6c9e7fbbb72d08015a6196ce261e6c13ae04f3",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/RestrictEvents/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1479
+  },
+  {
+    "project": "acidanthera/BrightnessKeys",
+    "file": "acidanthera--BrightnessKeys.txt",
+    "url": "https://github.com/acidanthera/BrightnessKeys/blob/master/LICENSE",
+    "sourceBlob": "512cab1cf4f9c50424432e8260c2e070c8e0eee8",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/BrightnessKeys/master/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1516
+  },
+  {
+    "project": "VoodooI2C/VoodooI2C",
+    "file": "VoodooI2C--VoodooI2C.txt",
+    "url": "https://github.com/VoodooI2C/VoodooI2C/blob/master/LICENSE.txt",
+    "sourceBlob": "2bf2f3cdc687e1650b4f4a26bc5e81e322c9a769",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/VoodooI2C/VoodooI2C/master/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 32393
+  },
+  {
+    "project": "zhen-zen/YogaSMC",
+    "file": "zhen-zen--YogaSMC.txt",
+    "url": "https://github.com/zhen-zen/YogaSMC/blob/master/LICENSE",
+    "sourceBlob": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+    "scope": "Complete raw upstream notice as retrieved; does not prove the exact archived binary build.",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/zhen-zen/YogaSMC/master/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 18092
+  },
+  {
+    "project": "acidanthera/VoodooPS2",
+    "file": "acidanthera--VoodooPS2--LICENSE_md.txt",
+    "url": "https://github.com/acidanthera/VoodooPS2/blob/7eab4a344d901d1e4aa6ece4189ecde5a7356287/LICENSE.md",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/VoodooPS2/7eab4a344d901d1e4aa6ece4189ecde5a7356287/LICENSE.md",
+    "retrieved_date": "2026-10-24",
+    "bytes": 19850,
+    "scope": "Complete raw notice; ref is fixed when available, otherwise retrieval-date upstream reference."
+  },
+  {
+    "project": "acidanthera/VoodooInput",
+    "file": "acidanthera--VoodooInput--LICENSE_txt.txt",
+    "url": "https://github.com/acidanthera/VoodooInput/blob/d897813718c2ef9ad143b6a86240fe52dcb1693e/LICENSE.txt",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/VoodooInput/d897813718c2ef9ad143b6a86240fe52dcb1693e/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 18092,
+    "scope": "Complete raw notice; ref is fixed when available, otherwise retrieval-date upstream reference."
+  },
+  {
+    "project": "corpnewt/SSDTTime",
+    "file": "corpnewt--SSDTTime--LICENSE.txt",
+    "url": "https://github.com/corpnewt/SSDTTime/blob/44aadf01b7fe75cb4a3eab5590e7b6c458265c6f/LICENSE",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/corpnewt/SSDTTime/44aadf01b7fe75cb4a3eab5590e7b6c458265c6f/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1065,
+    "scope": "Complete raw notice; ref is fixed when available, otherwise retrieval-date upstream reference."
+  },
+  {
+    "project": "lzhoang2801/OpCore-Simplify",
+    "file": "lzhoang2801--OpCore-Simplify--LICENSE.txt",
+    "url": "https://github.com/lzhoang2801/OpCore-Simplify/blob/main/LICENSE",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/lzhoang2801/OpCore-Simplify/main/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1519,
+    "scope": "Complete raw notice; ref is fixed when available, otherwise retrieval-date upstream reference."
+  },
+  {
+    "project": "nullmoth/1401",
+    "file": "nullmoth--1401--NOTICE_md.txt",
+    "url": "https://github.com/nullmoth/1401/blob/main/NOTICE.md",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/nullmoth/1401/main/NOTICE.md",
+    "retrieved_date": "2026-10-24",
+    "bytes": 3732,
+    "scope": "Complete raw notice; ref is fixed when available, otherwise retrieval-date upstream reference."
+  },
+  {
+    "project": "nullmoth/1401",
+    "file": "nullmoth--1401--main--LICENSE.txt",
+    "url": "https://github.com/nullmoth/1401/blob/main/LICENSE",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/nullmoth/1401/main/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 4647,
+    "scope": "Original raw upstream notice; fixed ref ties the notice to the recorded source where available."
+  },
+  {
+    "project": "lzhoang2801/OpCore-Simplify",
+    "file": "lzhoang2801--OpCore-Simplify--e5d8a9f5--LICENSE.txt",
+    "url": "https://github.com/lzhoang2801/OpCore-Simplify/blob/e5d8a9f551b1e2a96e2f968696b460b65a7dad2e/LICENSE",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/lzhoang2801/OpCore-Simplify/e5d8a9f551b1e2a96e2f968696b460b65a7dad2e/LICENSE",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1519,
+    "scope": "Original raw upstream notice; fixed ref ties the notice to the recorded source where available."
+  },
+  {
+    "project": "VoodooI2C/VoodooI2C",
+    "file": "VoodooI2C--VoodooI2C--5c0c99c--LICENSE_txt.txt",
+    "url": "https://github.com/VoodooI2C/VoodooI2C/blob/5c0c99c/LICENSE.txt",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/VoodooI2C/VoodooI2C/5c0c99c/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 32393,
+    "scope": "Original raw upstream notice; fixed ref ties the notice to the recorded source where available."
+  },
+  {
+    "project": "acidanthera/OpenCorePkg",
+    "file": "acidanthera--OpenCorePkg--d9ef47a2--LICENSE_txt.txt",
+    "url": "https://github.com/acidanthera/OpenCorePkg/blob/d9ef47a2a7bd69a026a92b0eb040b9be71810620/LICENSE.txt",
+    "retrieved_raw_url": "https://raw.githubusercontent.com/acidanthera/OpenCorePkg/d9ef47a2a7bd69a026a92b0eb040b9be71810620/LICENSE.txt",
+    "retrieved_date": "2026-10-24",
+    "bytes": 1601,
+    "scope": "Original raw upstream notice; fixed ref ties the notice to the recorded source where available."
+  }
+]
