@@ -1,0 +1,11 @@
+--- panic-no-cpu-limit.redacted.plist
++++ test-cpus12-unverified.redacted.plist
+@@ -1908,7 +1908,7 @@
+ 				Rg==
+ 				</data>
+ 				<key>boot-args</key>
+-				<string>-v debug=0x100 keepsyms=1 -amfipassbeta -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 gfxrst=4</string>
++				<string>-v debug=0x100 keepsyms=1 -amfipassbeta -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 cpus=12 gfxrst=4</string>
+ 				<key>csr-active-config</key>
+ 				<data>
+ 				QwoAAA==
