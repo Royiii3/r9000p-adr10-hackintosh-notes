@@ -1,0 +1,58 @@
+[
+  {
+    "file": "20261018-pci-patcher-and-acpi.redacted.txt",
+    "source_filename": "log-evidence.txt",
+    "source_bytes": 1572,
+    "body_lines": 12,
+    "scope": "Historical early-loader excerpts; includes Darwin 24 comparison. Not a Kernel Panic report."
+  },
+  {
+    "file": "20261021-runtime-environment.redacted.txt",
+    "source_filename": "environment.txt",
+    "source_bytes": 1143,
+    "body_lines": 22,
+    "scope": "Installed macOS runtime snapshot; cpus=1; source timestamps retained without reinterpreting timezone."
+  },
+  {
+    "file": "20261021-loaded-kexts.redacted.txt",
+    "source_filename": "loaded-kexts.txt",
+    "source_bytes": 24383,
+    "body_lines": 170,
+    "scope": "Full saved kextstat output after the earlier 2.3.4 installation; not the later multicore Panic boot."
+  },
+  {
+    "file": "20261021-display-profiler.redacted.txt",
+    "source_filename": "displays.txt",
+    "source_bytes": 712,
+    "body_lines": 19,
+    "scope": "Saved system_profiler display output; registration does not establish full application compatibility."
+  },
+  {
+    "file": "20261023-driver-install.redacted.txt",
+    "source_filename": "DRIVER-234-LOG.txt",
+    "source_bytes": 1819,
+    "body_lines": 48,
+    "scope": "Actual new installation log. Successful install is distinct from next-boot loading."
+  },
+  {
+    "file": "20261023-driver-status.redacted.txt",
+    "source_filename": "DRIVER-234-STATUS.txt",
+    "source_bytes": 78,
+    "body_lines": 1,
+    "scope": "Status as saved on USB; may predate later runtime observations."
+  },
+  {
+    "file": "20261023-account-status.redacted.txt",
+    "source_filename": "SETUP-SKIP-STATUS.txt",
+    "source_bytes": 159,
+    "body_lines": 5,
+    "scope": "Account staging success marker; user later separately confirmed desktop login."
+  },
+  {
+    "file": "20261023-opencore-sparse.redacted.txt",
+    "source_filename": "opencore-2026-10-23-154052.txt",
+    "source_bytes": 262144,
+    "body_lines": 1,
+    "scope": "Original file was preallocated to 262144 bytes. Trailing NUL bytes omitted. Its one-line body is not the kernel-stage Panic."
+  }
+]

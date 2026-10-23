@@ -1,0 +1,5 @@
+# Status as saved on USB; may predate later runtime observations.
+# Source filename: DRIVER-234-STATUS.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+DRIVER_234_INSTALLED: restarting once, then recording loaded driver versions.

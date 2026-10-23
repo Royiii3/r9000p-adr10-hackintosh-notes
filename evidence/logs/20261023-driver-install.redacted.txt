@@ -1,0 +1,52 @@
+# Actual new installation log. Successful install is distinct from next-boot loading.
+# Source filename: DRIVER-234-LOG.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+Fri Oct 23 09:51:36 UTC 2026
+ProductName:		macOS
+ProductVersion:		26.7.1
+BuildVersion:		25G241
+kern.bootargs: -v debug=0x100 keepsyms=1 -amfipassbeta -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 cpus=1 gfxrst=4 -nvoff 
+hw.ncpu: 1
+
+== 1. this Mac
+   ok  macOS 26.7.1, x86_64, NVIDIA GPU present
+
+== 2. package integrity
+   ok  every file matches SHA256SUMS and both OS accelerators are present
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 15.5.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 14.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 10.12.0
+CHECK runtime payload minimum macOS 15.0.0
+CHECK runtime payload minimum macOS 15.0.0
+
+== 3. test kernel collection
+   ok  test collection holds all four kexts
+
+== 4. back up what is there now -> /Library/NullMoth/backup-20261023-025154.V9fQUE
+   ok  backup written
+
+== 5. install
+   ok  installed
+
+== 6. boot-args
+
+== 6b. falling back to the previous driver if this one cannot start
+   ok  no previous driver to fall back to (first install)
+
+Done. Reboot now: sudo shutdown -r now
+If macOS asks, allow the extensions in System Settings > Privacy & Security, then reboot once more.
+Undo: sudo ./uninstall.sh /Library/NullMoth/backup-20261023-025154.V9fQUE
+2.3.4
+Volume MACBOOT on [UUID_REDACTED] mounted

@@ -1,0 +1,16 @@
+# Historical early-loader excerpts; includes Darwin 24 comparison. Not a Kernel Panic report.
+# Source filename: log-evidence.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+252:467 02:065 OC: Applying 4 byte ACPI patch (_OSI to XOSI rename - requires SSDT-XOSI.aml) at 0, skip 0, count 0
+253:695 01:227 OCA: Patching DSDT of 146621 bytes with 0000000000000000 ID replaced 15 of 0
+291:779 02:111 OCA: Patching SSDT (54445353) (OEM 20202031302D4243) of 38663 bytes with 20202031302D4243 ID at 22 replaced 24 of 0
+308:297 01:224 OCA: Inserted table SSDT (54445353) (OEM 0000000000004345) of 125 bytes into ACPI at index 31
+311:508 02:064 OCA: Inserted table SSDT (54445353) (OEM 4167756C50757043) of 2104 bytes into ACPI at index 32
+314:779 01:160 OCA: Inserted table SSDT (54445353) (OEM 7465736552627355) of 277 bytes into ACPI at index 33
+317:991 02:064 OCA: Inserted table SSDT (54445353) (OEM 0000000058425355) of 166 bytes into ACPI at index 34
+320:368 01:149 OCA: Inserted table SSDT (54445353) (OEM 0000000049534F58) of 237 bytes into ACPI at index 35
+865:472 01:152 AAPL: #[EB|MBA:OUT] <"-v debug=0x100 keepsyms=1 -amfipassbeta -vi2c-force-polling revpatch=sbvmm nvfb=1 nvaccel=1 nvfbheads=4 -nvkmsnosmooth amfi_get_out_of_my_way=0x1 amfi=0x80 ipc_control_port_options=0 cpus=1 slide=157">
+1103:873 02:102 OCAK: 64-bit CaseySJ | probeBusGated | Disable 10 bit tags | 12.0-15.x replace count - 1
+1105:030 01:157 OC: Prelinked patcher result 17 for com.apple.iokit.IOPCIFamily (CaseySJ | probeBusGated | Disable 10 bit tags | 12.0-15.x) - Success
+1106:173 01:143 OC: Prelinked patcher skips com.apple.iokit.IOPCIFamily (CaseySJ | probeBusGated | Disable 10 bit tags | 26.0+) patch at 18 due to version 250000 <= 240600 <= 259999

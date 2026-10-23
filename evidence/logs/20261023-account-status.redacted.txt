@@ -1,0 +1,9 @@
+# Account staging success marker; user later separately confirmed desktop login.
+# Source filename: SETUP-SKIP-STATUS.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+SETUP_SKIP_READY
+Account: LOCAL_USER
+UID: 501
+Data: /Volumes/Macintosh HD - Data
+Backup: /Volumes/Macintosh HD - Data/Library/CodexSetupSkip/backup-20261023-122114

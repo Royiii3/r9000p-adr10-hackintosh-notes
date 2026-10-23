@@ -1,0 +1,23 @@
+# Saved system_profiler display output; registration does not establish full application compatibility.
+# Source filename: displays.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+nvrm: b81 PERF_BOOST flags 0x12 INFINITE rc 0x0
+nvrm: b72 host-pointer import ON (probe NV_STATUS 0)
+nvrm: b80 LOCAL+mapped memory -> system RAM (b79 placement) (BAR1 8192 MB, VRAM 8151 MB, default)
+2026-10-21 04:08:08.563 system_profiler[390:2890] Device PreExisted [000000010000045d] NVIDIA GeForce RTX 5060 Laptop GPU (NVMTL over NVIDIA GeForce RTX 5060 Laptop GPU (NVK GB206-B))
+Graphics/Displays:
+
+    NVIDIA GeForce RTX 5060 Laptop GPU:
+
+      Chipset Model: NVIDIA GeForce RTX 5060 Laptop GPU
+      Type: GPU
+      Bus: PCIe
+      Slot: Slot-1
+      PCIe Lane Width: x8
+      VRAM (Total): 8 GB
+      Vendor: NVIDIA (0x10de)
+      Device ID: 0x2d59
+      Revision ID: 0x00a1
+      Metal Support: Metal 3
+

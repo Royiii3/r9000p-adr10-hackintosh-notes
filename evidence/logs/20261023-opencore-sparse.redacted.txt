@@ -1,0 +1,5 @@
+# Original file was preallocated to 262144 bytes. Trailing NUL bytes omitted. Its one-line body is not the kernel-stage Panic.
+# Source filename: opencore-2026-10-23-154052.txt
+# Personal identifiers and local paths redacted; technical errors/stacks/addresses retained.
+
+00:000 00:000 OC: Prelinked blocker (Exclude) result 0 for com.apple.iokit.IONDRVSupport (NullMoth installed-driver profile only; preserve installer profile separately) - Unsupported
