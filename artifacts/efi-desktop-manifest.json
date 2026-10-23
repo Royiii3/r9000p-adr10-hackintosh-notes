@@ -1,0 +1,799 @@
+{
+  "status": "Public inventory only; complete historical EFI remains private and is not a downloadable release.",
+  "original_runtime": "User reached desktop with cpus=1; not fully functional or daily-use stable",
+  "public_config_runtime": "Not boot-tested after identity redaction. Needs the reader own SMBIOS identity.",
+  "redaction": "Blank serial/MLB, zero ROM and SystemUUID; no NVIDIA/GSP firmware or installed NVIDIA package included.",
+  "components": [
+    {
+      "component": "AMFIPass.kext",
+      "version_observed": "1.4.1",
+      "bundle_id": "com.dhinakg.AMFIPass",
+      "upstream": "https://github.com/dortania/OpenCore-Legacy-Patcher/tree/main/payloads/Kexts/Acidanthera",
+      "source_scope": "Exact payload URL recorded; authorship per bundle metadata. Independent source and redistribution terms not confirmed.",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/OpenCore-Legacy-Patcher/raw/main/payloads/Kexts/Acidanthera/AMFIPass-v1.4.1-RELEASE.zip"
+      ],
+      "license_observed": "Payload archive contains no license/source notice; OCLP project license not applied to this independent payload."
+    },
+    {
+      "component": "AppleMCEReporterDisabler.kext",
+      "version_observed": "1.2",
+      "bundle_id": "org.xlnc.disabler.MCEReporter",
+      "upstream": "https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip",
+      "source_scope": "Codeless Info.plist payload and original attachment URL identified; no public binary attachment included here.",
+      "recorded_generator_download_urls": [
+        "https://github.com/acidanthera/bugtracker/files/3703498/AppleMCEReporterDisabler.kext.zip"
+      ],
+      "license_observed": "Info.plist: Copyright 2019 XLNC, All rights reserved. No separate redistribution grant confirmed."
+    },
+    {
+      "component": "BrightnessKeys.kext",
+      "version_observed": "1.0.4",
+      "bundle_id": "as.acidanthera.BrightnessKeys",
+      "upstream": "https://github.com/acidanthera/BrightnessKeys",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/BrightnessKeys/tree/37bdf47",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/BrightnessKeys-37bdf47/BrightnessKeys-1.0.4-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "Lilu.kext",
+      "version_observed": "1.7.3",
+      "bundle_id": "as.vit9696.Lilu",
+      "upstream": "https://github.com/acidanthera/Lilu",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/Lilu/tree/0515f40",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/Lilu-0515f40/Lilu-1.7.3-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "NVMeFix.kext",
+      "version_observed": "1.1.4",
+      "bundle_id": "org.acidanthera.NVMeFix",
+      "upstream": "https://github.com/acidanthera/NVMeFix",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/NVMeFix/tree/4862220",
+      "license_observed": "BSD notice plus Linux GPL-2.0 material; see full notice",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/NVMeFix-4862220/NVMeFix-1.1.4-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "RestrictEvents.kext",
+      "version_observed": "1.1.7",
+      "bundle_id": "as.vit9696.RestrictEvents",
+      "upstream": "https://github.com/acidanthera/RestrictEvents",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/RestrictEvents/tree/9265e78",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/RestrictEvents-9265e78/RestrictEvents-1.1.7-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "RTL812xLucy.kext",
+      "version_observed": "1.1.100",
+      "bundle_id": "com.insanelymac.RTL812xLucy",
+      "upstream": "https://github.com/Mieze/RTL812xLucy/releases/tag/v1.1.1",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/Mieze/RTL812xLucy/tree/v1.1.1",
+      "license_observed": "GPL-2.0-or-later in source header; README describes GPLv2",
+      "recorded_generator_download_urls": [
+        "https://github.com/Mieze/RTL812xLucy/releases/download/v1.1.1/RTL812xLucy-V1.1.1.zip"
+      ]
+    },
+    {
+      "component": "SMCBatteryManager.kext",
+      "version_observed": "1.3.9",
+      "bundle_id": "ru.usrsse2.SMCBatteryManager",
+      "upstream": "https://github.com/acidanthera/VirtualSMC",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/VirtualSMC/tree/b5c62c2",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VirtualSMC-b5c62c2/VirtualSMC-1.3.9-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "SMCLightSensor.kext",
+      "version_observed": "1.3.9",
+      "bundle_id": "ru.usrsse2.SMCLightSensor",
+      "upstream": "https://github.com/acidanthera/VirtualSMC",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/VirtualSMC/tree/b5c62c2",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VirtualSMC-b5c62c2/VirtualSMC-1.3.9-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "USBToolBox.kext",
+      "version_observed": "1.2.0",
+      "bundle_id": "com.dhinakg.USBToolBox.kext",
+      "upstream": "https://github.com/USBToolBox/kext",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/USBToolBox/kext/tree/1.2.0",
+      "license_observed": "No redistribution grant confirmed after checking tree, README, main source header",
+      "recorded_generator_download_urls": [
+        "https://github.com/USBToolBox/kext/releases/download/1.2.0/USBToolBox-1.2.0-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "UTBDefault.kext",
+      "version_observed": "1.0",
+      "bundle_id": "com.dhinakg.USBToolBox.injector",
+      "upstream": "https://github.com/USBToolBox/kext",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/USBToolBox/kext/tree/1.2.0",
+      "license_observed": "No redistribution grant confirmed after checking tree, README, main source header",
+      "recorded_generator_download_urls": [
+        "https://github.com/USBToolBox/kext/releases/download/1.2.0/USBToolBox-1.2.0-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "VirtualSMC.kext",
+      "version_observed": "1.3.9",
+      "bundle_id": "as.vit9696.VirtualSMC",
+      "upstream": "https://github.com/acidanthera/VirtualSMC",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/VirtualSMC/tree/b5c62c2",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VirtualSMC-b5c62c2/VirtualSMC-1.3.9-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "VoodooI2C.kext",
+      "version_observed": "2.9.1",
+      "bundle_id": "com.alexandred.VoodooI2C",
+      "upstream": "https://github.com/VoodooI2C/VoodooI2C",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/VoodooI2C/VoodooI2C/tree/5c0c99c",
+      "license_observed": "GPL-3.0 text in upstream LICENSE.txt; upstream file starts with a damaged heading",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VoodooI2C-5c0c99c/release.zip"
+      ]
+    },
+    {
+      "component": "VoodooI2CHID.kext",
+      "version_observed": "1",
+      "bundle_id": "com.alexandred.VoodooI2CHID",
+      "upstream": "https://github.com/VoodooI2C/VoodooI2C",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/VoodooI2C/VoodooI2C/tree/5c0c99c",
+      "license_observed": "GPL-3.0 text in upstream LICENSE.txt; upstream file starts with a damaged heading",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VoodooI2C-5c0c99c/release.zip"
+      ]
+    },
+    {
+      "component": "VoodooPS2Controller.kext",
+      "version_observed": "2.3.8",
+      "bundle_id": "as.acidanthera.voodoo.driver.PS2Controller",
+      "upstream": "https://github.com/acidanthera/VoodooPS2",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/VoodooPS2/tree/7eab4a3",
+      "license_observed": "APSL-2.0; bundled VoodooInput separately GPL-2.0",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/VoodooPS2-7eab4a3/VoodooPS2Controller-2.3.8-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "WhateverGreen.kext",
+      "version_observed": "1.7.2",
+      "bundle_id": "as.vit9696.WhateverGreen",
+      "upstream": "https://github.com/acidanthera/WhateverGreen",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/acidanthera/WhateverGreen/tree/093e76f",
+      "license_observed": "BSD-3-Clause",
+      "recorded_generator_download_urls": [
+        "https://github.com/dortania/build-repo/releases/download/WhateverGreen-093e76f/WhateverGreen-1.7.2-RELEASE.zip"
+      ]
+    },
+    {
+      "component": "YogaSMC.kext",
+      "version_observed": "1.5.3",
+      "bundle_id": "org.zhen.YogaSMC",
+      "upstream": "https://github.com/zhen-zen/YogaSMC",
+      "source_scope": "Version and generator download records identified; this review did not perform a new binary-to-source reproducibility test.",
+      "source_tree": "https://github.com/zhen-zen/YogaSMC/tree/1.5.3",
+      "license_observed": "GPL-2.0",
+      "recorded_generator_download_urls": [
+        "https://github.com/zhen-zen/YogaSMC/releases/download/1.5.3/YogaSMC-Release.zip"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "BOOT/.contentFlavour",
+      "bytes": 8
+    },
+    {
+      "path": "BOOT/.contentVisibility",
+      "bytes": 8
+    },
+    {
+      "path": "BOOT/BOOTx64.efi",
+      "bytes": 24576
+    },
+    {
+      "path": "OC/.contentFlavour",
+      "bytes": 8
+    },
+    {
+      "path": "OC/.contentVisibility",
+      "bytes": 8
+    },
+    {
+      "path": "OC/ACPI/SSDT-EC.aml",
+      "bytes": 125
+    },
+    {
+      "path": "OC/ACPI/SSDT-PLUG-ALT.aml",
+      "bytes": 2104
+    },
+    {
+      "path": "OC/ACPI/SSDT-USB-Reset.aml",
+      "bytes": 277
+    },
+    {
+      "path": "OC/ACPI/SSDT-USBX.aml",
+      "bytes": 166
+    },
+    {
+      "path": "OC/ACPI/SSDT-XOSI.aml",
+      "bytes": 237
+    },
+    {
+      "path": "OC/config.plist",
+      "bytes": 51752
+    },
+    {
+      "path": "OC/Drivers/apfs_aligned.efi",
+      "bytes": 718340
+    },
+    {
+      "path": "OC/Drivers/HfsPlus.efi",
+      "bytes": 37892
+    },
+    {
+      "path": "OC/Drivers/OpenRuntime.efi",
+      "bytes": 24576
+    },
+    {
+      "path": "OC/Drivers/ResetNvramEntry.efi",
+      "bytes": 57344
+    },
+    {
+      "path": "OC/Kexts/AMFIPass.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/AMFIPass.kext/Contents/Info.plist",
+      "bytes": 2353
+    },
+    {
+      "path": "OC/Kexts/AMFIPass.kext/Contents/MacOS/AMFIPass",
+      "bytes": 832960
+    },
+    {
+      "path": "OC/Kexts/AppleMCEReporterDisabler.kext/Contents/Info.plist",
+      "bytes": 1937
+    },
+    {
+      "path": "OC/Kexts/BrightnessKeys.kext/Contents/Info.plist",
+      "bytes": 2248
+    },
+    {
+      "path": "OC/Kexts/BrightnessKeys.kext/Contents/MacOS/BrightnessKeys",
+      "bytes": 37040
+    },
+    {
+      "path": "OC/Kexts/Lilu.kext/Contents/Info.plist",
+      "bytes": 2743
+    },
+    {
+      "path": "OC/Kexts/Lilu.kext/Contents/MacOS/Lilu",
+      "bytes": 543840
+    },
+    {
+      "path": "OC/Kexts/NVMeFix.kext/Contents/Info.plist",
+      "bytes": 2370
+    },
+    {
+      "path": "OC/Kexts/NVMeFix.kext/Contents/MacOS/NVMeFix",
+      "bytes": 51312
+    },
+    {
+      "path": "OC/Kexts/RestrictEvents.kext/Contents/Info.plist",
+      "bytes": 5823
+    },
+    {
+      "path": "OC/Kexts/RestrictEvents.kext/Contents/MacOS/RestrictEvents",
+      "bytes": 52848
+    },
+    {
+      "path": "OC/Kexts/RTL812xLucy.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/RTL812xLucy.kext/Contents/Info.plist",
+      "bytes": 2872
+    },
+    {
+      "path": "OC/Kexts/RTL812xLucy.kext/Contents/MacOS/RTL812xLucy",
+      "bytes": 414064
+    },
+    {
+      "path": "OC/Kexts/SMCBatteryManager.kext/Contents/Info.plist",
+      "bytes": 2925
+    },
+    {
+      "path": "OC/Kexts/SMCBatteryManager.kext/Contents/MacOS/SMCBatteryManager",
+      "bytes": 209456
+    },
+    {
+      "path": "OC/Kexts/SMCBatteryManager.kext/Contents/Resources/SSDT-BATC.dsl",
+      "bytes": 18419
+    },
+    {
+      "path": "OC/Kexts/SMCLightSensor.kext/Contents/Info.plist",
+      "bytes": 2467
+    },
+    {
+      "path": "OC/Kexts/SMCLightSensor.kext/Contents/MacOS/SMCLightSensor",
+      "bytes": 34432
+    },
+    {
+      "path": "OC/Kexts/USBToolBox.kext/Contents/Info.plist",
+      "bytes": 1804
+    },
+    {
+      "path": "OC/Kexts/USBToolBox.kext/Contents/MacOS/USBToolBox",
+      "bytes": 39360
+    },
+    {
+      "path": "OC/Kexts/UTBDefault.kext/Contents/Info.plist",
+      "bytes": 1306
+    },
+    {
+      "path": "OC/Kexts/VirtualSMC.kext/Contents/Info.plist",
+      "bytes": 8652
+    },
+    {
+      "path": "OC/Kexts/VirtualSMC.kext/Contents/MacOS/VirtualSMC",
+      "bytes": 245820
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/Info.plist",
+      "bytes": 21286
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/MacOS/VoodooI2C",
+      "bytes": 165944
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/Info.plist",
+      "bytes": 4219
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext/Contents/MacOS/VoodooGPIO",
+      "bytes": 303888
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/Info.plist",
+      "bytes": 2392
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext/Contents/MacOS/VoodooI2CServices",
+      "bytes": 62784
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist",
+      "bytes": 2174
+    },
+    {
+      "path": "OC/Kexts/VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput",
+      "bytes": 108352
+    },
+    {
+      "path": "OC/Kexts/VoodooI2CHID.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/VoodooI2CHID.kext/Contents/Info.plist",
+      "bytes": 11141
+    },
+    {
+      "path": "OC/Kexts/VoodooI2CHID.kext/Contents/MacOS/VoodooI2CHID",
+      "bytes": 235056
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/Info.plist",
+      "bytes": 4329
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/MacOS/VoodooPS2Controller",
+      "bytes": 102560
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/Info.plist",
+      "bytes": 2174
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext/Contents/MacOS/VoodooInput",
+      "bytes": 108352
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist",
+      "bytes": 20332
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/MacOS/VoodooPS2Keyboard",
+      "bytes": 50344
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/Info.plist",
+      "bytes": 2990
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext/Contents/MacOS/VoodooPS2Mouse",
+      "bytes": 35792
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/Info.plist",
+      "bytes": 12338
+    },
+    {
+      "path": "OC/Kexts/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext/Contents/MacOS/VoodooPS2Trackpad",
+      "bytes": 152808
+    },
+    {
+      "path": "OC/Kexts/WhateverGreen.kext/Contents/Info.plist",
+      "bytes": 3020
+    },
+    {
+      "path": "OC/Kexts/WhateverGreen.kext/Contents/MacOS/WhateverGreen",
+      "bytes": 531800
+    },
+    {
+      "path": "OC/Kexts/YogaSMC.kext/Contents/_CodeSignature/CodeResources",
+      "bytes": 2200
+    },
+    {
+      "path": "OC/Kexts/YogaSMC.kext/Contents/Info.plist",
+      "bytes": 6728
+    },
+    {
+      "path": "OC/Kexts/YogaSMC.kext/Contents/MacOS/YogaSMC",
+      "bytes": 344352
+    },
+    {
+      "path": "OC/OpenCore.efi",
+      "bytes": 630784
+    },
+    {
+      "path": "OC/Resources/Font/Font_1x.bin",
+      "bytes": 1985
+    },
+    {
+      "path": "OC/Resources/Font/Font_1x.png",
+      "bytes": 3426
+    },
+    {
+      "path": "OC/Resources/Font/Font_2x.bin",
+      "bytes": 1988
+    },
+    {
+      "path": "OC/Resources/Font/Font_2x.png",
+      "bytes": 7424
+    },
+    {
+      "path": "OC/Resources/Font/Terminus.hex",
+      "bytes": 51528
+    },
+    {
+      "path": "OC/Resources/Font/TerminusCore.hex",
+      "bytes": 51528
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/AppleRecv.icns",
+      "bytes": 98171
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/AppleTM.icns",
+      "bytes": 66217
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Background.icns",
+      "bytes": 2552118
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/BtnFocus.icns",
+      "bytes": 2650
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Cursor.icns",
+      "bytes": 1262
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Dot.icns",
+      "bytes": 293
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Enter.icns",
+      "bytes": 1651
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/ExtAppleRecv.icns",
+      "bytes": 94546
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/ExtAppleTM.icns",
+      "bytes": 76078
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/ExtHardDrive.icns",
+      "bytes": 65723
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/FirmwareSettings.icns",
+      "bytes": 98171
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/HardDrive.icns",
+      "bytes": 83952
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Left.icns",
+      "bytes": 3048
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Lock.icns",
+      "bytes": 2622
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/NetworkBoot.icns",
+      "bytes": 98171
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/OpticalDrive.icns",
+      "bytes": 85314
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Password.icns",
+      "bytes": 808
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Restart.icns",
+      "bytes": 5790
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Right.icns",
+      "bytes": 3019
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Selected.icns",
+      "bytes": 1348
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Selector.icns",
+      "bytes": 3010
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/SetDefault.icns",
+      "bytes": 3415
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Shell.icns",
+      "bytes": 12072
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/ShutDown.icns",
+      "bytes": 6168
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Tool.icns",
+      "bytes": 15342
+    },
+    {
+      "path": "OC/Resources/Image/Acidanthera/GoldenGate/Windows.icns",
+      "bytes": 63399
+    },
+    {
+      "path": "OC/Resources/Label/Apple.l2x",
+      "bytes": 1733
+    },
+    {
+      "path": "OC/Resources/Label/Apple.lbl",
+      "bytes": 437
+    },
+    {
+      "path": "OC/Resources/Label/AppleRecv.l2x",
+      "bytes": 3917
+    },
+    {
+      "path": "OC/Resources/Label/AppleRecv.lbl",
+      "bytes": 977
+    },
+    {
+      "path": "OC/Resources/Label/AppleTM.l2x",
+      "bytes": 3149
+    },
+    {
+      "path": "OC/Resources/Label/AppleTM.lbl",
+      "bytes": 785
+    },
+    {
+      "path": "OC/Resources/Label/EFIBoot.l2x",
+      "bytes": 1997
+    },
+    {
+      "path": "OC/Resources/Label/EFIBoot.lbl",
+      "bytes": 497
+    },
+    {
+      "path": "OC/Resources/Label/FirmwareSettings.l2x",
+      "bytes": 3989
+    },
+    {
+      "path": "OC/Resources/Label/FirmwareSettings.lbl",
+      "bytes": 1001
+    },
+    {
+      "path": "OC/Resources/Label/NetworkBoot.l2x",
+      "bytes": 2885
+    },
+    {
+      "path": "OC/Resources/Label/NetworkBoot.lbl",
+      "bytes": 725
+    },
+    {
+      "path": "OC/Resources/Label/Other.l2x",
+      "bytes": 2165
+    },
+    {
+      "path": "OC/Resources/Label/Other.lbl",
+      "bytes": 545
+    },
+    {
+      "path": "OC/Resources/Label/ResetNVRAM.l2x",
+      "bytes": 3221
+    },
+    {
+      "path": "OC/Resources/Label/ResetNVRAM.lbl",
+      "bytes": 809
+    },
+    {
+      "path": "OC/Resources/Label/Shell.l2x",
+      "bytes": 2405
+    },
+    {
+      "path": "OC/Resources/Label/Shell.lbl",
+      "bytes": 605
+    },
+    {
+      "path": "OC/Resources/Label/SIPDisabled.l2x",
+      "bytes": 4781
+    },
+    {
+      "path": "OC/Resources/Label/SIPDisabled.lbl",
+      "bytes": 1193
+    },
+    {
+      "path": "OC/Resources/Label/SIPEnabled.l2x",
+      "bytes": 4661
+    },
+    {
+      "path": "OC/Resources/Label/SIPEnabled.lbl",
+      "bytes": 1169
+    },
+    {
+      "path": "OC/Resources/Label/Tool.l2x",
+      "bytes": 1037
+    },
+    {
+      "path": "OC/Resources/Label/Tool.lbl",
+      "bytes": 257
+    },
+    {
+      "path": "OC/Resources/Label/Windows.l2x",
+      "bytes": 2117
+    },
+    {
+      "path": "OC/Resources/Label/Windows.lbl",
+      "bytes": 533
+    },
+    {
+      "path": "OC/Tools/OpenShell.efi",
+      "bytes": 1290240
+    }
+  ],
+  "file_hashes_computed": false,
+  "redistribution_review": {
+    "date": "2026-10-24",
+    "public_full_efi": false,
+    "decision": "Publish experience, redacted configs, diffs, selected logs and component/source inventory. Do not attach the complete historical EFI ZIP.",
+    "unknown_does_not_mean_forbidden": "Missing license files alone do not prove no permission exists; this records what this archive review could confirm.",
+    "unresolved_payloads": [
+      "AMFIPass.kext",
+      "AppleMCEReporterDisabler.kext",
+      "USBToolBox.kext",
+      "UTBDefault.kext",
+      "OC/Drivers/apfs_aligned.efi",
+      "OC/Drivers/HfsPlus.efi",
+      "OC/Resources/*"
+    ],
+    "source_obligations_not_packaged": [
+      "VoodooI2C and VoodooInput corresponding source/build inputs",
+      "VoodooPS2 APSL source and notices",
+      "RTL812xLucy GPL source/build inputs",
+      "YogaSMC GPL source/build inputs"
+    ],
+    "runtime_note": "Providing source URLs and license notices is not a claim that all requirements for this particular binary bundle have been fulfilled."
+  },
+  "other_sources": [
+    {
+      "component": "BOOTx64.efi / OpenCore.efi / OpenRuntime.efi",
+      "observed": "1.0.9 RELEASE, switched together in historical change record",
+      "download_url": "https://github.com/dortania/build-repo/releases/download/OpenCorePkg-d9ef47a/OpenCore-1.0.9-RELEASE.zip",
+      "source_tree": "https://github.com/acidanthera/OpenCorePkg/tree/d9ef47a2a7bd69a026a92b0eb040b9be71810620",
+      "license": "BSD-3-Clause top-level notice; preserve bundled notices for other included code",
+      "evidence": "Saved source-build.json and historical change report. No new hashes calculated."
+    },
+    {
+      "component": "OpenShell.efi / ResetNvramEntry.efi",
+      "source_tree": "https://github.com/acidanthera/OpenCorePkg",
+      "scope": "OpenCorePkg tools; exact historical payload origin not independently matched in this review."
+    },
+    {
+      "component": "HfsPlus.efi / apfs_aligned.efi / OC Resources",
+      "download_url": "https://github.com/acidanthera/OcBinaryData/archive/refs/heads/master.zip",
+      "source_tree": "https://github.com/acidanthera/OcBinaryData",
+      "scope": "Actual generator input URL. No repository-wide license or per-payload redistribution grant confirmed; not treated as OpenCorePkg BSD code."
+    },
+    {
+      "component": "AMD kernel patches",
+      "generator_input": "https://raw.githubusercontent.com/laobamac/AMD_Vanilla/refs/heads/master/patches.plist",
+      "original_project": "https://github.com/AMD-OSX/AMD_Vanilla",
+      "scope": "Generator actually downloads the laobamac fork. Fork README credits AlGrey, XLNC, CaseySJ, Shaneee and others. README and patch file checked; no explicit repository license confirmed. Preserved in configs as historical configuration evidence, not relicensed."
+    },
+    {
+      "component": "SSDT-EC / SSDT-PLUG-ALT / SSDT-USB-Reset / SSDT-USBX / SSDT-XOSI",
+      "generator_source": "https://github.com/lzhoang2801/OpCore-Simplify/blob/e5d8a9f551b1e2a96e2f968696b460b65a7dad2e/Scripts/acpi_guru.py",
+      "base_source": "https://github.com/corpnewt/SSDTTime/blob/44aadf01b7fe75cb4a3eab5590e7b6c458265c6f/SSDTTime.py",
+      "sample_sources": [
+        "https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl",
+        "https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/decompiled/SSDT-XOSI.dsl"
+      ],
+      "scope": "Pinned generator declares SSDTTime origin; PLUG-ALT and XOSI templates cite upstream samples. This establishes the template chain, not a claim that each historical AML was rebuilt or byte-matched."
+    },
+    {
+      "component": "1401 generator",
+      "source": "https://github.com/nullmoth/1401",
+      "license": "PolyForm Noncommercial 1.0.0 for own code; independent dependencies keep own terms; no brand license",
+      "notice": "https://github.com/nullmoth/1401/blob/main/NOTICE.md",
+      "scope": "Generator and NVIDIA binary package are not redistributed by this experience repository."
+    }
+  ]
+}
