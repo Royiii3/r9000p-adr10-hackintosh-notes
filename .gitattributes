@@ -1,0 +1,11 @@
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.plist text eol=lf
+*.diff text eol=lf whitespace=-space-before-tab
+*.txt text eol=lf
+# Preserve historical log and upstream notice whitespace as evidence.
+evidence/logs/*.txt -whitespace
+third-party-notices/*.txt -whitespace
+*.sh text eol=lf
+*.py text eol=lf

@@ -1,0 +1,26 @@
+# 文档仓库不收录镜像、驱动包、原始 EFI 或本机凭据
+*.dmg
+*.chunklist
+*.zip
+*.tar.gz
+*.efi
+*.kext/
+*.aml
+*.kc
+*.ips
+*.panic
+*.log
+*.DS_Store
+._*
+.env
+.env.*
+__pycache__/
+EFI/
+raw/
+private/
+pkgroot/
+install.no-nvram.sh
+node_modules/
+.preview/
+.release-drafts/
+/PUBLICATION-REVIEW.md
